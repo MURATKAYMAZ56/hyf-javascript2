@@ -58,6 +58,22 @@ var first = function (start, end, threeCallback, fiveCallback) {
 first(2, 15, threeCallback, fiveCallback);
 
 ///////////////////////////////////////////////////////////////
+
+//p3
+//for loop
+function repeatStringNumTimes(str, num) {
+    // repeat after me
+    if (num > 0) {
+        for (let i = 0; i < num; i++) {
+            return str.repeat(num);
+        }
+
+    }
+    return "";
+}
+
+repeatStringNumTimes("abc", 2);
+
 //p6
 var arr = [[1, 2], [3, 4], [5, 6]];
 for (let i in arr) {
@@ -65,6 +81,7 @@ for (let i in arr) {
         console.log(arr[i][j]);
     }
 };
+//while loop
 
 
 /////////////////////////////////////////////////////////////////
