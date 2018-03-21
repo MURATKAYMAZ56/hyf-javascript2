@@ -74,7 +74,7 @@ function addBinary(a, b) {
     if (carry !== 0) {
         result = carry + result;
     }
-    return result;
+    console.log(result);
 };
 
 addBinary("0101110", "11100001");
